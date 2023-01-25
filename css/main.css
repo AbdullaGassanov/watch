@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.row-mid {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.btn {
+  background-color: #fab35b;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.9rem;
+  -webkit-box-shadow: 1px 5px 20px #fab35b;
+          box-shadow: 1px 5px 20px #fab35b;
+  text-align: center;
+  color: #fff;
+  padding: 1.8rem 3.8rem;
+  border-radius: 40px;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.banner__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  max-width: 900px;
+}
+.banner__left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.banner__right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.banner__title {
+  font-size: 5rem;
+  font-weight: 700;
+  padding-bottom: 4rem;
+  line-height: 75px;
+}
+.banner__text {
+  font-size: 1.8rem;
+  opacity: 0.6;
+  padding-bottom: 4rem;
+  line-height: 25px;
+}
+
+.header {
+  padding: 1rem;
+  height: 98vh;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+}
+.navbar__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  max-width: 1000px;
+}
+.navbar__logo {
+  font-size: 2.1rem;
+  font-weight: 300;
+}
+.navbar__menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.navbar__menu-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  opacity: 0.9;
+  padding-right: 1.7rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 25px;
+}/*# sourceMappingURL=main.css.map */
